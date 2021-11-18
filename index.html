@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Music Player</title>
+</head>
+<body>
+	<div class="container">
+		<div class="box-container">
+			<div class="box">
+				<div class="artist">
+					<div class="artist-info">
+						<img class="artist-img" src="img/bg.jpg" alt="artist">
+						<div class="artist-name">
+							<h3>norm ender</h3>
+							<h4>mekanin sahibi</h4>
+						</div>
+					</div>
+					<div class="actions">
+						<span>
+							<i class="fas fa-heart like"></i>
+						</span>
+						<span>
+							<i class="fas fa-external-link-alt goto"></i>
+						</span>
+						<span>
+							<i class="fas fa-backward prev"></i>
+						</span>
+						<span>
+							<i class="fas fa-forward next"></i>
+						</span>
+						<span>
+							<i class="far fa-play-circle btn-player play"></i>
+							<i class="fas fa-pause-circle btn-player pause d-none"></i>
+						</span>
+					</div>
+				</div>
+				<div class="tempo">
+					<span class="duration-time">03:00</span>
+					<progress class="progress" value="0" max="100"></progress>
+					<span class="current-time">00:00</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
